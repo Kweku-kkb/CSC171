@@ -1,0 +1,15 @@
+Name: Kweku Ofori 
+
+Project 
+Problems 
+This game was particularly challenging because it took far more than necessary to make things work. I started experiencing problems when I tried implementing it the way the professor had suggested in the game design lecture. 
+I had issues my canvas in that whenever I added the paint component, the Jlabels and JButton will not show up and vice versa. I still could not figure out exactly what the issue was, so I extended the JPanel in my primary class instead of the class of the JFrame 
+
+Game Structure and Design 
+I started off by extending the JLabel and implementing the MouseListener after importing the various Java libraries. I implemented my canvas in my main method with size of 480*610 pixels instead of the recommended 480*580 pixels because I noticed the title bar occupied the region of 480*30 pixels. I had to readjust the canvas this was so I could locate the ranges in which the canvas should respond if clicked. I set some conditions and booleans to check the state of the canvas and whenever each box was clicked. A boolean was set to false whenever a box was clicked so the canvas will not respond. 
+I set some variables to keep track of the player scores and turn so they would be passed into their various Jlabels and displayed on the Upper Panel. 
+I found it very difficult to reset the panel and implement a new game whenever the new game button was clicked so I had to do a late submission and rework on the assignment 
+I reset the canvas when there is a draw or when someone wins or when there is a draw. 
+It was quite challenging to be honest cause the canvas was just not being friendly with me. 
+
+
